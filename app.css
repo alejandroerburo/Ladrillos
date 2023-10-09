@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+ 
+body{ 
+    height: 150vh;
+    background-image: url("/img/vecteezy_cartoon-brick-wall-background_10826194.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+  font-size: 1rem;
+  display: block;
+}
+.content {
+    background-color: rgba(255, 255, 255, 0.853);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+a:hover{
+  color: #ffc107 !important;
+  border-bottom: 1px solid #ffc107;
+}
+.navegacion{
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.767);
+  color: white;
+  padding: .9rem;
+}
+.nav-item {
+  display: flex;
+  gap: 3rem;
+}
+.botones {
+  color: white;
+  text-decoration: none;
+
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+img{
+  display: flex;
+  margin: 80px auto;
+}
+.fondo-texto{
+  width: 600px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.542);
+  margin: 0 auto;
+  position: relative;
+}
+
+.fondo-texto p {
+  position: absolute;
+  color: white;
+  padding: 50px;
+  background: black;
+  text-align: justify;
+  border-radius: 10%;
+  font-size: 20px;
+}
+.registrar{
+  background: rgba(0, 0, 0, 0.507);
+  padding: 50px;
+  border-radius: 5%;
+}
+.nav-link{
+ color: white;
+}
+.nav-link:hover{
+  color: #ffc107;
+}
+.table{
+  background: rgba(0, 0, 0, 0.507);
+  padding: 50px;
+  color: white;
+}
+.text-listado{
+  margin: 50px;
+  font-size: 50px;
+  background: rgba(0, 0, 0, 0.821);
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+
+  
+}
